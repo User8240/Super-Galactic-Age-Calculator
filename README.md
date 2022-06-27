@@ -18,7 +18,7 @@ _This is a project containing a JavaScript file with business logic written to c
 
 * _Fork project to your own GitHub repository_ 
 * _Clone that repository to your desktop_
-* _Run npm install in root directory to receive all dependencies_
+* _Run `$ npm install` in root directory to receive all dependencies_
 * _Open calculator.js to view business logic!_
 
 ## Known Bugs
