@@ -12,12 +12,12 @@ export default class Calc {
   
     mercuryAge = this.age / .24 
     mercLifeExp = this.lifeExpect / .24
-    yearsLeft = mercLifeExp - mercuryAge
+    yearsLeft = mercLifeExp - mercuryAge 
 
     if (mercLifeExp > mercuryAge) {
-      ageAndExpect = "You are " + mercuryAge.toFixed(0) + " years old on Mercury. You have " + yearsLeft.toFixed(0) + " years left to live!"
-    } else if (mercLifeExp < mercuryAge) {
-      ageAndExpect = "You are " + mercuryAge.toFixed(0) + " years old on Mercury. You are " + yearsLeft.toFixed(0) + " years over your life expectancy!"
+      ageAndExpect = "You are " + mercuryAge.toFixed(0) + " year(s) old on Mercury. You have " + yearsLeft.toFixed(0) + " year(s) left to live!"
+    } else { (mercLifeExp < mercuryAge) 
+      ageAndExpect = "You are " + mercuryAge.toFixed(0) + " year(s) old on Mercury. You are " + (yearsLeft.toFixed(0) * -1) + " year(s) over your life expectancy!"
     };
     return ageAndExpect
   };
@@ -33,9 +33,9 @@ export default class Calc {
     yearsLeft = venusLifeExp - venusAge
    
     if (venusLifeExp > venusAge) {
-      ageAndExpect = "You are " + venusAge.toFixed(0) + " years old on Venus. You have " + yearsLeft.toFixed(0) + " years left to live!"
-    } else if (venusLifeExp < venusAge) {
-      ageAndExpect = "You are " + venusAge.toFixed(0) + " years old on Venus. You are " + yearsLeft.toFixed(0) + " years over your life expectancy!"
+      ageAndExpect = "You are " + venusAge.toFixed(0) + " year(s) old on Venus. You have " + yearsLeft.toFixed(0) + " year(s) left to live!"
+    } else { (venusLifeExp < venusAge) 
+      ageAndExpect = "You are " + venusAge.toFixed(0) + " year(s) old on Venus. You are " + (yearsLeft.toFixed(0) * -1) + " year(s) over your life expectancy!"
     };
     return ageAndExpect
   };
@@ -51,9 +51,9 @@ export default class Calc {
     yearsLeft = marsLifeExp - marsAge
   
     if (marsLifeExp > marsAge) {
-      ageAndExpect = "You are " + marsAge.toFixed(0) + " years old on Mars. You have " + yearsLeft.toFixed(0) + " years left to live!"
-    } else if (marsLifeExp < marsAge) {
-      ageAndExpect = "You are " + marsAge.toFixed(0) + " years old on Mars. You are " + yearsLeft.toFixed(0) + " years over your life expectancy!"
+      ageAndExpect = "You are " + marsAge.toFixed(0) + " year(s) old on Mars. You have " + yearsLeft.toFixed(0) + " year(s) left to live!"
+    } else { (marsLifeExp < marsAge) 
+      ageAndExpect = "You are " + marsAge.toFixed(0) + " year(s) old on Mars. You are " + (yearsLeft.toFixed(0) * -1) + " year(s) over your life expectancy!"
     };
     return ageAndExpect
   };
@@ -69,9 +69,9 @@ export default class Calc {
     yearsLeft = jupLifeExp - jupiterAge
   
     if (jupLifeExp > jupiterAge) {
-      ageAndExpect = "You are " + jupiterAge.toFixed(0) + " years old on Jupiter. You have " + yearsLeft.toFixed(0) + " years left to live!"
-    } else if (jupLifeExp < marsAge) {
-      ageAndExpect = "You are " + jupiterAge.toFixed(0) + " years old on Jupiter. You are " + yearsLeft.toFixed(0) + " years over your life expectancy!"
+      ageAndExpect = "You are " + jupiterAge.toFixed(0) + " year(s) old on Jupiter. You have " + yearsLeft.toFixed(0) + " year(s) left to live!"
+    } else { (jupLifeExp < jupiterAge) 
+      ageAndExpect = "You are " + jupiterAge.toFixed(0) + " year(s) old on Jupiter. You are " + (yearsLeft.toFixed(0) * -1) + " year(s) over your life expectancy!"
     };
     return ageAndExpect
   };
